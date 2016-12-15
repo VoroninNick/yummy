@@ -1,0 +1,314 @@
+= render "header"
+
+.baner
+  .row  
+    .medium-12.large-6.small-12.columns
+      .img_burger
+        img src="/assets/Burger-top.png"
+    .medium-12.large-6.small-12.columns.banner-text
+      p.shadow-text big
+      p.subtitle
+        |burger
+      p.title
+        |big
+        span daddy
+      p.subtitle-2
+        |With fried French fries
+      p.price
+        |$12.99 
+        span $17.99
+      p.likes
+        = inline_svg "Heart.svg"
+        span 51
+        span.likes_1 likes
+  .row.zub
+    .large-12.columns
+.about_us
+  .row
+    .large-1.medium-1.columns.hide-for-small-only
+      p
+    .large-5.medium-5.small-12.columns
+      h1
+        span.subtitle-3
+          |abaut 
+        span.title-2 
+          |yummy cafe 
+        p.text2 
+      .main_text
+        span B
+        p y day, Revelations is a cosy coffee shop where friends meet to share coffee, cakes and light meals. At night, it is transformed into a vibey eatery.
+        p It is the meeting place in Grahamstown for family, friends, business associates and couples – in short, a place for everyone from early morning breakfast to drinks late at night. 
+        p.P_social Our social life
+        ul
+          li.socials
+            a href="/" 
+              = inline_svg "fb.svg"
+          li.socials
+            a href="/"
+              = inline_svg "goggle.svg"
+          li.socials
+            a href="/"
+              = inline_svg "twitter.svg"
+    .large-6.medium-6.small-12.columns
+      .interior
+        img src="/assets/interior-1.jpg"
+  .row.text-center
+    .columns
+      h1.we_offer
+        span.we 
+          |we 
+        span.offer 
+          |offer 
+  .row
+    .columns     
+      ul.owl-carousel
+        li.product
+          .img_box
+            .bgc_yelow
+            = image_tag "carusel-2.png"
+          .burger_box burger
+          p.product_name
+              |Monster crash  
+              span.product_price $23.99
+              p 
+              |Bread, chease, 2x meat. pomidor, sose
+              span.kcal 450 kcal
+        li.product.product_with_discount
+            .img_box
+              .bgc_red
+              = image_tag "carusel-3.png"
+            .burger_box burger
+            p.product_name 
+              |Bulbus  
+              span.product_price $14.90
+              p 
+              |Bread, chease, 2x meat. pomidor, sose
+              span.kcal 550 kcal
+        li.product
+            .img_box
+              .bgc_yelow
+              = image_tag "carusel-4.png"
+            .burger_box burger
+            p.product_name
+              |Monster crash  
+              span.product_price $23.99
+              p 
+              |Bread, chease, 2x meat. pomidor, sose
+              span.kcal 368 kcal
+        li.product
+            .img_box
+              .bgc_yelow
+              = image_tag "carusel-2.png"
+            .produkt_box 
+            .burger_box burger
+            p.product_name
+              |Bulbus  
+              span.product_price $14.90
+              p 
+              |Bread, chease, 2x meat. pomidor, sose
+              span.kcal 670 kcal
+        li.product
+            .img_box
+              .bgc_yelow
+              = image_tag "carusel-1.png"
+            .burger_box burger
+            p.product_name
+              |Monster crash  
+              span.product_price $23.99
+              p 
+              |Bread, chease, 2x meat. pomidor, sose
+              span.kcal 377 kcal
+        li.product
+            .img_box
+              .bgc_yelow
+              = image_tag "carusel-4.png"
+            .burger_box burger
+            p.product_name
+              |Monster crash  
+              span.product_price $23.99
+              p 
+              |Bread, chease, 2x meat. pomidor, sose
+              span.kcal 368 kcal
+  .testemonials-container
+    .bg_img
+    .row
+      .columns.medium-12.large-5.large-push-8.deskription_block
+        .testemonials-text-block
+          a.customers href="/" 
+            |Our customers say
+          p.te 
+            |The ancillary ingredients seem very fresh, and the fluffy bread is great.
+          h6.juliana Juliana Robertovna  
+  .row
+    .columns.large-12
+      .burger_inspect
+        p.fresh_ind
+          |only 
+          span fresh ingredients
+        .burger_scheme
+          = image_tag "burger-bottom.jpg"
+          .plus.meat_plus
+            =inline_svg "plus"
+          .plus.salad_plus
+            =inline_svg "plus"
+          .plus.bran_plus
+            =inline_svg "plus"
+          .plus.tomatos_plus
+            =inline_svg "plus"
+          .plus.bread_plus
+            =inline_svg "plus"
+        .fade-in-block.kapusta
+          = image_tag "kapusta.jpg"
+          p.ingredients
+            |Fresh 
+            span salad
+          p Detracto nominavi maluisset ei mei. Ad ius hinc recusabo, petentium similique sea ad  
+        .fade-in-block.meat
+          = image_tag "meat.jpg"
+          p.ingredients
+            |Juicy 
+            span meat
+          p Reference site about Lorem Ipsum, giving information on its origins, as well as.
+        .fade-in-block.bran
+          = image_tag "onion.jpg"
+          p.ingredients
+            |Fresh 
+            span bran
+          p Detracto nominavi maluisset ei mei. Ad ius hinc recusabo, petentium similique sea ad  
+        .fade-in-block.tomatos
+          = image_tag "tomatos.jpg"
+          p.ingredients
+            |Fresh 
+            span tomatos
+          p Detracto nominavi maluisset ei mei. Ad ius hinc recusabo, petentium similique sea ad  
+        .fade-in-block.bread
+          = image_tag "1.jpg"
+          p.ingredients
+            |Fresh 
+            span tomatos
+          p Detracto nominavi maluisset ei mei. Ad ius hinc recusabo, petentium similique sea ad  
+  .row
+    .columns.large-12
+      h1.about_in_sos 
+        |about us 
+        span in sosial
+      p.share 
+        |share your moments and impresions with our cafe using hashtag 
+        span #Yammycafe
+  .row.collapse
+    .columns.large-3.medium-6.small-12
+      .square
+        .square-content
+          = image_tag "instagram-1.jpg"
+    .columns.large-3.medium-6.small-12
+      .square.background-orange
+        .square-content.indent-container
+          h3.nick_name
+            |@Deges1
+            span.date
+              |5.09.2016
+            span.svg
+              = inline_svg "twitter.svg"
+          p.inner_E
+            |Mix of fruity sweetness s goat cheese create Blueberry YumYum Burger’s complex tastiness
+          p.yammy_hash
+            |#Yammicafe
+          .likes_svg
+            = inline_svg "Heart.svg"
+            .likes_conteiner 
+              |2
+              span likes
+    .columns.large-3.medium-6.small-12.none
+      .square
+        .square-content
+          = image_tag "instagram-2.jpg"
+    .columns.large-3.medium-6.small-12.none
+      .square.background-orange
+        .square-content.indent-container
+          h3.nick_name
+            |@Despul
+            span.date
+              |6.09.2016
+            span.svg
+              = inline_svg "twitter.svg"
+          p.inner_E
+            |Two breakfast faves fused together? We're fans of Banana Bread French Toast.
+          p.yammy_hash
+            |#Yammicafe
+          .likes_svg
+            = inline_svg "Heart.svg"
+            .likes_conteiner 
+              |18
+              span likes
+    .columns.large-3.medium-6.small-12.none
+      .square.background-brown
+        .square-content.indent-container
+          h3.nick_name
+            |@para342
+            span.date
+              |21.08.2016
+            span.svg
+              = inline_svg "twitter.svg"
+          p.inner
+            |When my drunk bestfriend wanted to to buy burger at a Shisha stall
+          p.yammy_hash_Y
+            |#Yammicafe
+          .likes_svg
+            = inline_svg "Heart.svg"
+            .likes_conteiner 
+              |34
+              span likes
+    .columns.large-3.medium-6.small-12.none
+      .square
+        .square-content
+          = image_tag "instagram-3.jpg"
+    .columns.large-3.medium-6.small-12.none
+      .square.background-brown
+        .square-content.indent-container
+          h3.nick_name
+            |@Miranda
+            span.date
+              |6.09.2016
+            span.svg
+              = inline_svg "twitter.svg"
+          p.inner
+            |I just had the most incredible room service burger, stay strong.
+          p.yammy_hash_Y
+            |#Yammicafe
+          .likes_svg
+            = inline_svg "Heart.svg"
+            .likes_conteiner
+              |12
+              span likes
+    .columns.large-3.medium-6.small-12.none
+      .square
+        .square-content
+          = image_tag "instagram-4.jpg"
+.map_box
+  #map
+  .map_info
+    .map_address 
+      |our 
+      span
+        |address
+    .map_address_text 
+      |28 shinn Street, Lviv sity
+    .box_info  
+      .info_box 
+        |Yammy
+        span
+          |cafe
+        hr.hr
+      p.numbers 510-450-2059 
+      p.numbers 513-375-9485
+      .phone
+        = inline_svg "telephone.svg"
+      .info_box_social
+        a href="/"
+          = inline_svg "fb.svg"
+        a href=""
+          = inline_svg "goggle.svg"
+        a href="/"
+          = inline_svg "twitter.svg"
+
+        

@@ -1,0 +1,13 @@
+/li.product class=("product_with_discount" if product[:discount])
+  = image_tag product[:image]
+  - if product[:discount]
+    .product_discount
+      = product[:discount]
+  p.product_category 
+    = product[:category]
+  p.product_name 
+    = product[:name]
+    span.product_price 
+      = product[:price]
+  p 
+    = product[:description]

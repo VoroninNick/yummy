@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="28.3px" height="28.3px" viewBox="0 0 28.3 28.3" enable-background="new 0 0 28.3 28.3"
+	 xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  height="19.2" width="25" y="-23.7" x="1.6" bottomLeftOrigin="true"></sliceSourceBounds>
+		<optimizationSettings>
+			<targetSettings  fileFormat="PNG24Format" targetSettingsID="0">
+				<PNG24Format  transparency="true" noMatteColor="false" matteColor="#FFFFFF" interlaced="false" filtered="false">
+					</PNG24Format>
+			</targetSettings>
+		</optimizationSettings>
+	</sfw>
+</metadata>
+<g>
+	<g>
+		<g>
+			<path fill="#6D4C41" d="M20.8,13.1h-9v3h5.5c-0.8,2.6-3.2,4.5-6.1,4.5c-3.5,0-6.4-2.9-6.4-6.4c0-3.5,2.9-6.4,6.4-6.4
+				c1.8,0,3.4,0.7,4.5,1.9l2.2-2.4c-1.7-1.7-4.1-2.7-6.7-2.7c-5.3,0-9.6,4.3-9.6,9.6s4.3,9.6,9.6,9.6c4.6,0,8.7-3.3,9.6-7.7
+				L20.8,13.1L20.8,13.1L20.8,13.1z"/>
+			<polygon fill="#6D4C41" points="26.6,13.1 24.8,13.1 24.8,11.2 23.2,11.2 23.2,13.1 21.4,13.1 21.4,14.6 23.2,14.6 23.2,16.5 
+				24.8,16.5 24.8,14.6 26.6,14.6 			"/>
+		</g>
+	</g>
+</g>
+</svg>

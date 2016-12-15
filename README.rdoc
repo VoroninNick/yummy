@@ -1,0 +1,8 @@
+bundle # проінсталювати всі плагінм(gems)
+rake bower:install проінсталювати зовнішні css and scripts
+
+rails s #  запустити проект
+
+
+
+http://localhost:3000/ в браузеры
